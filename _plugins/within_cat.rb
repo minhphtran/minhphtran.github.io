@@ -2,6 +2,7 @@ module Jekyll
   class WithinCategoryPostNavigation < Generator
     def generate(site)
       site.categories.each_pair do |category, posts|
+      post.data["previous_in_category"] = 'test'
         if category == 'demo'
           posts.sort! { |a,b| a['order'] <=> b['order']}
         else
@@ -19,8 +20,8 @@ module Jekyll
               previous_in_category = posts[index - 1]
             end
           end
-          post.data["next_in_category"] = next_in_category unless next_in_category.nil?
-          post.data["previous_in_category"] = previous_in_category unless previous_in_category.nil?
+#           post.data["next_in_category"] = next_in_category unless next_in_category.nil?
+#           post.data["previous_in_category"] = previous_in_category unless previous_in_category.nil?
         end
       end
     end

@@ -18,12 +18,19 @@ layout: base
             </div>
 
             <div class="nav_demo small">
-                {% if page.previous_in_category != nil  %}
-                <a class="nav_prev" href="{{page.previous_in_category.url}}">&laquo; {{ page.previous_in_category.name }}</a>
+                {% if page.previous != nil  %}
+                <a class="nav_prev" href="{{page.previous.url}}">&laquo; {{ page.previous.name }}</a>
                 {% endif %}
-                {% if page.next_in_category != nil  %}
-                <a class="nav_next" href="{{page.next_in_category.url}}">{{ page.next_in_category.name }} &raquo;</a>
+                {% if page.next != nil  %}
+                <a class="nav_next" href="{{page.next.url}}">{{ page.next.name }} &raquo;</a>
                 {% endif %}
+
+<!--                {% if page.previous_in_category != nil  %}-->
+<!--                <a class="nav_prev" href="{{page.previous_in_category.url}}">&laquo; {{ page.previous_in_category.name }}</a>-->
+<!--                {% endif %}-->
+<!--                {% if page.next_in_category != nil  %}-->
+<!--                <a class="nav_next" href="{{page.next_in_category.url}}">{{ page.next_in_category.name }} &raquo;</a>-->
+<!--                {% endif %}-->
             </div>
         </div>
     </div>
