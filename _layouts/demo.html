@@ -3,29 +3,29 @@ layout: base
 ---
 
 <section class="demo_item">
-        <div class="container_narrow">
-            <div class="demo_details">
-                <h2><span>{{ page.title | escape }}</span></h2>
+    <div class="container_narrow">
+        <div class="demo_details">
+            <h2><span>{{ page.title | escape }}</span></h2>
 
-                <p class="section_descr">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
+            {%- if page.descr -%}
+            <p class="section_descr">
+                {{ page.descr | escape }}
+            </p>
+            {%- endif -%}
 
-                <div class="demo_body">
-                    <p class="demo_scr"><img src="/assets/proj_scr/bookshelf-2.png"></p>
-                    <p class="demo_scr"><img src="/assets/proj_scr/login-2.png"></p>
-                    <p class="demo_scr"><img src="/assets/proj_scr/signup-2.png"></p>
+            <div class="demo_body">
+                {{ content }}
+            </div>
 
-                    <h3 class="title">Tools.</h3>
-                </div>
+            <div class="nav_demo small">
+                {% if page.previous_in_category != nil  %}
+                <a class="nav_prev" href="{{page.previous_in_category.url}}">&laquo; {{ page.previous_in_category.name }}</a>
+                {% endif %}
+                {% if page.next_in_category != nil  %}
+                <a class="nav_next" href="{{page.next_in_category.url}}">{{ page.next_in_category.name }} &raquo;</a>
+                {% endif %}
             </div>
         </div>
+    </div>
 
-    </section>
+</section>
