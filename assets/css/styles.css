@@ -100,6 +100,11 @@ strong{
     font-weight: 500;
 }
 
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
 input, textarea, keygen, select, button {
     text-transform: none;
     text-indent: 0px;
