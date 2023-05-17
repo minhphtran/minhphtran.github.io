@@ -96,6 +96,10 @@ h4 {
     margin-bottom: 1.25rem;
 }
 
+strong{
+    font-weight: 500;
+}
+
 input, textarea, keygen, select, button {
     text-transform: none;
     text-indent: 0px;
