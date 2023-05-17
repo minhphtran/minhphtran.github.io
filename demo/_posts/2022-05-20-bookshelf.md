@@ -8,12 +8,23 @@ link: "http://bookshelf.novalinq.nl"
 img: "/assets/projs/bookshelf_thumb.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This website is used to share study materials ([Novalinq academy](https://www.novalinq.nl/academy){:target="_blank"}).
+It is built completely in Django and supports social logins.
+
+The site provides all required functionalities: contact form, a page for the classes one is 
+registered in (register token sent via email), a page for the (HTML) documents attached to each class.
+A protected admin interface is also available for staffs.
 
 ![front_page](/assets/proj_scr/bookshelf-2.png)
 
-### login/signup
+### Details
 
+- deployed in Google App Engine
+- sends email for confirmation, password reset, token activate
+- HTML materials were prebuilt with Rmarkdown
+- front-end was built with Django templates
+
+### login/signup pages
 
 ![login_page](/assets/proj_scr/login-2.png)
 ![signup_page](/assets/proj_scr/signup-2.png)

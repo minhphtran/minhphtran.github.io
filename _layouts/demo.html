@@ -2,16 +2,13 @@
 layout: base
 ---
 
-<section class="demo_item">
+<section class="demo_item" style="background: #fff">
     <div class="container_narrow">
         <div class="demo_details">
-            <h2><span>{{ page.title | escape }}</span></h2>
-
-            {%- if page.descr -%}
-            <p class="section_descr">
+            <h2 style="margin-bottom: .2em"><span>{{ page.title | escape }}</span></h2>
+            <h4 class="section_descr gray">
                 {{ page.descr | escape }}
-            </p>
-            {%- endif -%}
+            </h4>
 
             <div class="demo_body">
                 {{ content }}

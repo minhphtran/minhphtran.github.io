@@ -103,13 +103,16 @@ input, textarea, keygen, select, button {
     display: inline-block;
 }
 
-.nav_group li::before {
+li::before {
     content: "> ";
     font-weight: 300;
     color: rgb(22 25 27 / 0.6);
     color: rgb(var(--gr1), 0.6);
 }
 
+.no_item li::before {
+    content: ""
+}
 section.dark .nav_group li::before {
     color: rgb(145 145 145 / 0.6);
 }
@@ -955,6 +958,7 @@ hr {
     position: relative;
 }
 
+
 .demo_list > li:hover{
     scale: .9875;
 }
@@ -1032,6 +1036,11 @@ hr {
     margin: 2rem 0;
 }
 
+.demo_link{
+    text-decoration: underline;
+    font-weight: 500;
+    margin-top: 1.5em;
+}
 /* demo nav */
 
 .nav_demo{
