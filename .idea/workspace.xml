@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20095ff4-ec28-4cbd-9485-e0dd0a983968" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/_posts/2023-05-01-studio8447.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2020-04-30-titanic.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2020-04-30-titanic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2021-06-01-dov.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2021-06-01-dov.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2021-10-15-scraper.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2021-10-15-scraper.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2022-05-20-bookshelf.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2022-05-20-bookshelf.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2022-07-23-sensor.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2022-07-23-sensor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2022-11-20-bag.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2022-11-20-bag.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2023-01-10-sentiment.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2023-01-10-sentiment.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +27,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/minh/Documents/GitHub/minhphtran.github.io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/minh/Documents/GitHub/minhphtran.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "CSS"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;CSS&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css" />
@@ -68,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683820983413</updated>
       <workItem from="1683820985267" duration="88189000" />
+      <workItem from="1684417449407" duration="3112000" />
     </task>
     <servers />
   </component>
