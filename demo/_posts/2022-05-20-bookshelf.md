@@ -1,7 +1,7 @@
 ---
 layout: demo
 title: "Novalinq bookshelf"
-name: "bookshelf"
+name: "bookshelf website"
 descr: "study materials website"
 order: 1
 link: "https://bookshelf.novalinq.nl"
