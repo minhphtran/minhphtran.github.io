@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20095ff4-ec28-4cbd-9485-e0dd0a983968" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/_posts/2022-05-20-home.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2020-04-30-titanic.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2020-04-30-titanic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2021-10-15-scraper.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2021-10-15-scraper.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2022-05-20-bookshelf.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2022-05-20-bookshelf.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2022-11-20-bag.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2022-11-20-bag.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/_posts/2023-05-01-studio8447.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2023-05-01-studio8447.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/_posts/2022-05-20-bookshelf.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2021-12-05-bookshelf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/_posts/2022-07-23-sensor.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/_posts/2022-07-23-sensor.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,8 @@
       <updated>1683820983413</updated>
       <workItem from="1683820985267" duration="88189000" />
       <workItem from="1684417449407" duration="3219000" />
-      <workItem from="1684426160580" duration="978000" />
+      <workItem from="1684426160580" duration="1772000" />
+      <workItem from="1684616147346" duration="1817000" />
     </task>
     <servers />
   </component>
