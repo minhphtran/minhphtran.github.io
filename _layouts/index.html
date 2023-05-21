@@ -634,29 +634,6 @@ layout: base
 </script>
 
 <script type="text/javascript">
-    var header = document.querySelector(".header");
-    var delta = 20;
-    var lastScroll = 0;
-    window.addEventListener("scroll", function () {
-        var currentScroll = window.pageYOffset;
-        if (currentScroll <= 0) {
-            header.classList.remove("header__hidden");
-            header.classList.remove("header__scrolled");
-            return;
-        }
-        if (currentScroll > 0 && header.classList.contains("header__light")) {
-            header.classList.add("header__scrolled");
-        }
-        if (currentScroll > lastScroll + delta && !header.classList.contains("header__hidden")) {
-            header.classList.add("header__hidden");
-        } else if (currentScroll < lastScroll && header.classList.contains("header__hidden")) {
-            header.classList.remove("header__hidden");
-        }
-        lastScroll = currentScroll;
-    });
-</script>
-
-<script type="text/javascript">
     function toggle_open(el) {
         let expanded = (el.getAttribute("aria-expanded") == 'false') ? 'true' : 'false',
             content = el.nextElementSibling;
