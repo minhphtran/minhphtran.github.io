@@ -1,5 +1,6 @@
 .idea/
 _site/
+private/
 .DS_Store
 Gemfile.lock
 Gemfile

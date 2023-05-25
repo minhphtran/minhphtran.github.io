@@ -775,7 +775,8 @@ hr {
     transform: translateX(-50%);
     color: #444;
     font-weight: 600;
-    opacity: var(--show_pc, 0);
+    /*opacity: var(--show_pc, 0);*/
+    opacity: 0;
 }
 
 
