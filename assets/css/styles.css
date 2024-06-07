@@ -16,6 +16,11 @@ ol, ul {
     list-style: none
 }
 
+pre, code {
+    font-family: "Courier New", Courier, monospace;
+}
+
+
 table {
     border-collapse: separate;
     border-spacing: 0
