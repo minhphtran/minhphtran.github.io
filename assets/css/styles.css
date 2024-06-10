@@ -321,6 +321,10 @@ a {
     margin-left: var(--header_gap, 3.5rem);
 }
 
+.header_icons {
+    margin-right: 0;
+}
+
 .header_content > a {
     text-decoration: none;
     cursor: pointer;
